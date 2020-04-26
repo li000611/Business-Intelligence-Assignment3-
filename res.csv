@@ -1,0 +1,430 @@
+@relation Titanic_test_processed-weka.filters.unsupervised.attribute.NumericToNominal-R2-weka.filters.unsupervised.attribute.StringToNominal-R1_predicted
+
+@attribute 'prediction margin' numeric
+@attribute 'predicted Survived' {0,1}
+@attribute Survived {0,1}
+@attribute Pclass {1,2,3}
+@attribute Sex {male,female}
+@attribute Embarked {Q,S,C}
+@attribute 'Age Group' {Adult,'Senior Adult',Teen,NK,Child,Elderly}
+@attribute Relatives {Alone,Low,Average,High}
+
+@data
+0.622184,0,?,3,male,C,Adult,Low
+0.25,0,?,3,female,Q,Teen,Alone
+0.622184,0,?,2,male,C,Teen,Low
+0.622184,0,?,3,male,Q,Adult,Low
+0.25,0,?,3,female,Q,Adult,Average
+0.622184,0,?,3,male,Q,Child,Low
+0.428571,0,?,3,female,C,Adult,Low
+0.622184,0,?,2,male,Q,Adult,Average
+-0.304348,1,?,3,female,S,Adult,Low
+0.622184,0,?,3,male,Q,Adult,Average
+0.622184,0,?,3,male,Q,'Senior Adult',Low
+0.622184,0,?,1,male,Q,Teen,Low
+-0.934783,1,?,1,female,Q,Adult,Alone
+0.622184,0,?,2,male,Q,Teen,Alone
+-0.934783,1,?,1,female,Q,Teen,Alone
+-0.842105,1,?,2,female,S,Adult,Alone
+0.622184,0,?,2,male,C,Adult,Low
+0.622184,0,?,3,male,S,Adult,Low
+0.25,0,?,3,female,Q,Adult,Alone
+-0.304348,1,?,3,female,S,Teen,Low
+0.622184,0,?,1,male,S,Teen,Alone
+0.622184,0,?,3,male,Q,NK,Alone
+-0.934783,1,?,1,female,Q,'Senior Adult',Low
+0.622184,0,?,1,male,S,Adult,Alone
+-0.934783,1,?,1,female,S,Teen,Average
+0.622184,0,?,3,male,Q,Teen,Alone
+-0.934783,1,?,1,female,S,Adult,Alone
+0.622184,0,?,3,male,S,Adult,Low
+0.622184,0,?,1,male,Q,Adult,Low
+0.622184,0,?,3,male,S,'Senior Adult',Average
+0.622184,0,?,2,male,Q,Teen,Alone
+0.622184,0,?,2,male,Q,Adult,Average
+0.25,0,?,3,female,Q,Adult,Average
+0.25,0,?,3,female,Q,'Senior Adult',Average
+0.622184,0,?,1,male,S,Adult,Alone
+0.622184,0,?,3,male,S,Adult,Low
+0.25,0,?,3,female,Q,'Senior Adult',Low
+0.25,0,?,3,female,Q,Adult,Low
+0.622184,0,?,3,male,Q,Adult,Low
+0.622184,0,?,3,male,Q,'Senior Adult',Low
+0.622184,0,?,3,male,S,Adult,Alone
+0.622184,0,?,1,male,Q,'Senior Adult',Low
+0.622184,0,?,3,male,Q,Adult,Low
+-0.842105,1,?,2,female,Q,Adult,Low
+-0.934783,1,?,1,female,Q,Teen,Alone
+0.622184,0,?,3,male,Q,Adult,Low
+0.622184,0,?,1,male,S,Teen,Low
+0.622184,0,?,3,male,C,'Senior Adult',Low
+-0.934783,1,?,1,female,S,Teen,Low
+0.25,0,?,3,female,Q,Adult,Average
+0.622184,0,?,1,male,Q,Adult,Alone
+0.622184,0,?,2,male,S,Adult,Low
+-0.842105,1,?,2,female,Q,Adult,Average
+-0.934783,1,?,1,female,Q,Adult,High
+0.622184,0,?,2,male,S,'Senior Adult',Low
+0.622184,0,?,3,male,C,NK,High
+0.622184,0,?,3,male,Q,Adult,Low
+0.622184,0,?,3,male,Q,Adult,Low
+0.622184,0,?,3,male,Q,'Senior Adult',Alone
+-0.934783,1,?,1,female,S,Adult,Low
+0.622184,0,?,3,male,Q,Child,Low
+0.622184,0,?,2,male,Q,Adult,Low
+0.622184,0,?,3,male,Q,Adult,Low
+0.428571,0,?,3,female,C,Adult,Low
+0.622184,0,?,1,male,S,Child,Average
+-0.842105,1,?,2,female,Q,'Senior Adult',Low
+0.428571,0,?,3,female,C,Adult,Low
+0.622184,0,?,1,male,Q,Teen,Low
+0.622184,0,?,1,male,S,Adult,Low
+-0.934783,1,?,1,female,Q,Teen,High
+0.428571,0,?,3,female,C,Adult,Low
+0.622184,0,?,3,male,Q,Adult,Low
+0.25,0,?,3,female,Q,Adult,Low
+0.622184,0,?,1,male,S,Adult,Low
+-0.934783,1,?,1,female,S,Adult,Low
+0.622184,0,?,1,male,S,Adult,Low
+0.622184,0,?,3,male,Q,'Senior Adult',Low
+-0.934783,1,?,1,female,Q,Teen,Average
+0.622184,0,?,2,male,Q,Adult,Low
+0.428571,0,?,3,female,C,Adult,Low
+0.622184,0,?,3,male,S,NK,Average
+0.622184,0,?,1,male,Q,Teen,Alone
+0.622184,0,?,1,male,Q,Teen,Low
+0.622184,0,?,3,male,Q,'Senior Adult',Low
+0.622184,0,?,2,male,C,'Senior Adult',Low
+0.622184,0,?,3,male,S,'Senior Adult',Alone
+0.428571,0,?,3,female,C,Adult,Low
+0.25,0,?,3,female,Q,Adult,Low
+-0.652174,1,?,3,female,C,'Senior Adult',Low
+0.622184,0,?,2,male,Q,NK,Average
+0.25,0,?,3,female,Q,Adult,Alone
+0.622184,0,?,3,male,Q,'Senior Adult',Low
+-0.934783,1,?,1,female,Q,Adult,Average
+0.622184,0,?,3,male,Q,'Senior Adult',Low
+0.622184,0,?,1,male,S,Adult,Low
+0.622184,0,?,3,male,Q,Adult,Low
+-0.934783,1,?,1,female,Q,Elderly,Alone
+0.622184,0,?,3,male,Q,Adult,Low
+0.25,0,?,3,female,Q,Adult,Low
+0.622184,0,?,3,male,Q,Adult,Low
+-0.934783,1,?,1,female,S,Adult,Alone
+0.622184,0,?,2,male,Q,Adult,Alone
+0.622184,0,?,3,male,C,'Senior Adult',Low
+0.622184,0,?,3,male,Q,Adult,Low
+-0.304348,1,?,3,female,S,Child,Average
+0.622184,0,?,3,male,Q,Adult,Low
+0.622184,0,?,3,male,C,Adult,Low
+0.622184,0,?,3,male,C,'Senior Adult',Low
+0.622184,0,?,3,male,Q,'Senior Adult',Low
+0.622184,0,?,2,male,Q,Adult,Low
+0.622184,0,?,2,male,S,Adult,Low
+-0.652174,1,?,3,female,C,'Senior Adult',Low
+-0.934783,1,?,1,female,S,Adult,Low
+0.428571,0,?,3,female,C,Adult,Low
+-0.934783,1,?,1,female,Q,Teen,Alone
+0.622184,0,?,3,male,S,Adult,Alone
+0.622184,0,?,3,male,S,'Senior Adult',Low
+0.25,0,?,3,female,Q,NK,Average
+0.622184,0,?,1,male,S,Adult,Low
+-0.842105,1,?,2,female,Q,Adult,Alone
+-0.842105,1,?,2,female,Q,Child,Low
+0.622184,0,?,3,male,C,'Senior Adult',Alone
+-0.934783,1,?,1,female,S,Adult,Alone
+0.622184,0,?,3,male,Q,Adult,Low
+0.622184,0,?,3,male,C,'Senior Adult',Low
+0.25,0,?,3,female,Q,Child,Alone
+0.622184,0,?,3,male,Q,Adult,Low
+-0.652174,1,?,3,female,C,'Senior Adult',Average
+0.622184,0,?,2,male,Q,Adult,Low
+0.622184,0,?,3,male,Q,Adult,Low
+0.622184,0,?,3,male,Q,Adult,Low
+0.622184,0,?,1,male,S,Teen,Low
+0.25,0,?,3,female,Q,'Senior Adult',Average
+0.622184,0,?,3,male,S,'Senior Adult',Alone
+0.622184,0,?,3,male,Q,Adult,Low
+0.622184,0,?,3,male,Q,Adult,Low
+0.622184,0,?,3,male,S,Adult,Low
+0.622184,0,?,2,male,Q,Adult,Low
+0.25,0,?,3,female,Q,Adult,Low
+0.622184,0,?,3,male,Q,Adult,High
+0.25,0,?,3,female,Q,NK,High
+-0.934783,1,?,1,female,Q,Adult,Low
+0.622184,0,?,1,male,S,Teen,Average
+0.622184,0,?,2,male,Q,Adult,Low
+0.622184,0,?,1,male,Q,Adult,Low
+0.622184,0,?,3,male,Q,Adult,Average
+0.622184,0,?,1,male,Q,'Senior Adult',Low
+0.622184,0,?,3,male,Q,Adult,Low
+0.622184,0,?,1,male,Q,'Senior Adult',Low
+0.622184,0,?,2,male,Q,Adult,Average
+-0.934783,1,?,1,female,S,Adult,Alone
+0.622184,0,?,3,male,S,'Senior Adult',Low
+0.622184,0,?,3,male,Q,Teen,Low
+0.25,0,?,3,female,Q,Adult,Average
+0.622184,0,?,3,male,Q,Child,High
+0.622184,0,?,3,male,Q,Adult,Low
+-0.934783,1,?,1,female,Q,Adult,Low
+0.25,0,?,3,female,Q,Adult,Low
+0.622184,0,?,1,male,Q,Adult,Low
+0.25,0,?,3,female,Q,Adult,Average
+-0.652174,1,?,3,female,C,'Senior Adult',Low
+0.622184,0,?,3,male,S,NK,Average
+-0.842105,1,?,2,female,Q,Adult,Low
+0.622184,0,?,3,male,Q,'Senior Adult',Low
+0.622184,0,?,2,male,Q,Adult,Low
+0.25,0,?,3,female,Q,Adult,Average
+0.622184,0,?,1,male,S,Teen,Low
+0.622184,0,?,3,male,Q,Adult,Average
+-0.934783,1,?,1,female,S,'Senior Adult',Low
+0.25,0,?,3,female,Q,Adult,Low
+0.622184,0,?,3,male,Q,'Senior Adult',Low
+0.622184,0,?,3,male,S,Adult,Low
+0.622184,0,?,3,male,Q,Adult,Alone
+0.622184,0,?,3,male,S,'Senior Adult',Low
+0.622184,0,?,3,male,Q,Adult,High
+-0.842105,1,?,2,female,Q,Child,Average
+-0.842105,1,?,2,female,Q,Adult,Low
+0.622184,0,?,1,male,S,Teen,Alone
+-0.842105,1,?,2,female,Q,Adult,Average
+-0.934783,1,?,1,female,S,Teen,Average
+0.622184,0,?,2,male,Q,Adult,Low
+0.622184,0,?,1,male,S,Adult,Average
+-0.934783,1,?,1,female,Q,Adult,Alone
+0.622184,0,?,3,male,C,'Senior Adult',Low
+-0.934783,1,?,1,female,S,Adult,Average
+0.622184,0,?,2,male,Q,Adult,Low
+-0.842105,1,?,2,female,Q,Adult,Alone
+0.622184,0,?,3,male,Q,Child,Average
+0.25,0,?,3,female,Q,'Senior Adult',High
+0.622184,0,?,2,male,Q,Adult,Low
+0.622184,0,?,2,male,Q,Adult,Alone
+0.622184,0,?,1,male,Q,'Senior Adult',Low
+0.622184,0,?,3,male,Q,NK,Average
+0.622184,0,?,2,male,C,Teen,Low
+0.622184,0,?,2,male,Q,NK,Average
+0.622184,0,?,3,male,Q,Adult,Low
+0.622184,0,?,1,male,S,NK,Average
+0.25,0,?,3,female,Q,Adult,Low
+0.622184,0,?,2,male,Q,Adult,Low
+0.25,0,?,3,female,Q,'Senior Adult',Low
+-0.652174,1,?,3,female,C,'Senior Adult',Low
+0.622184,0,?,3,male,Q,NK,Average
+0.622184,0,?,1,male,S,Teen,Alone
+-0.842105,1,?,2,female,Q,NK,Average
+0.622184,0,?,2,male,Q,Adult,Low
+0.622184,0,?,1,male,S,'Senior Adult',Low
+0.428571,0,?,3,female,C,Adult,Low
+0.622184,0,?,2,male,Q,Adult,Low
+-0.934783,1,?,1,female,S,Adult,Low
+0.622184,0,?,3,male,Q,Adult,Low
+0.622184,0,?,3,male,Q,Adult,Low
+0.622184,0,?,3,male,Q,'Senior Adult',Low
+0.622184,0,?,2,male,Q,Child,Low
+-0.842105,1,?,2,female,Q,Teen,Alone
+0.25,0,?,3,female,Q,Adult,High
+0.622184,0,?,1,male,Q,Adult,Low
+-0.652174,1,?,3,female,C,'Senior Adult',Low
+0.622184,0,?,1,male,Q,Teen,Average
+-0.934783,1,?,1,female,S,Teen,Average
+0.622184,0,?,3,male,Q,'Senior Adult',Low
+-0.842105,1,?,2,female,S,Adult,Alone
+0.622184,0,?,3,male,Q,Adult,Low
+-0.842105,1,?,2,female,Q,Adult,Low
+0.622184,0,?,3,male,Q,Adult,Low
+-0.934783,1,?,1,female,S,Teen,Low
+-0.304348,1,?,3,female,S,'Senior Adult',Average
+0.622184,0,?,3,male,Q,Adult,Low
+-0.652174,1,?,3,female,C,'Senior Adult',Low
+0.622184,0,?,3,male,Q,Adult,Low
+0.622184,0,?,2,male,Q,Adult,Low
+0.622184,0,?,2,male,Q,Child,Low
+-0.934783,1,?,1,female,Q,Adult,Low
+0.622184,0,?,3,male,Q,Adult,Alone
+0.622184,0,?,3,male,C,'Senior Adult',Low
+0.622184,0,?,1,male,S,Adult,Alone
+0.622184,0,?,3,male,Q,Adult,Low
+0.622184,0,?,1,male,S,Teen,Alone
+0.622184,0,?,3,male,S,Adult,Low
+-0.842105,1,?,2,female,Q,Adult,Average
+-0.934783,1,?,1,female,S,Teen,Alone
+-0.934783,1,?,1,female,S,Teen,Low
+-0.842105,1,?,2,female,Q,Teen,Average
+0.622184,0,?,1,male,S,Teen,Average
+0.622184,0,?,3,male,Q,'Senior Adult',Low
+0.622184,0,?,3,male,Q,'Senior Adult',Average
+0.622184,0,?,1,male,Q,Adult,Alone
+-0.842105,1,?,2,female,Q,Adult,Low
+0.622184,0,?,2,male,Q,Adult,Average
+-0.842105,1,?,2,female,Q,Adult,Alone
+-0.304348,1,?,3,female,S,'Senior Adult',Alone
+-0.842105,1,?,2,female,Q,NK,Average
+0.622184,0,?,3,male,Q,Adult,Low
+0.622184,0,?,1,male,S,Adult,Alone
+0.622184,0,?,3,male,Q,Adult,Low
+0.622184,0,?,3,male,Q,Adult,Low
+0.622184,0,?,3,male,Q,'Senior Adult',Low
+0.622184,0,?,3,male,C,'Senior Adult',Low
+0.622184,0,?,3,male,Q,Adult,Low
+-0.842105,1,?,2,female,Q,Adult,Low
+0.622184,0,?,3,male,Q,Adult,Low
+0.622184,0,?,3,male,Q,Adult,Alone
+0.622184,0,?,3,male,Q,Adult,Low
+-0.842105,1,?,2,female,Q,Adult,Average
+0.25,0,?,3,female,Q,NK,Average
+0.622184,0,?,2,male,S,Adult,Low
+0.622184,0,?,3,male,Q,'Senior Adult',Low
+0.622184,0,?,1,male,Q,'Senior Adult',Low
+0.622184,0,?,3,male,Q,'Senior Adult',Low
+0.25,0,?,3,female,Q,'Senior Adult',Low
+0.622184,0,?,3,male,Q,Child,Low
+0.622184,0,?,1,male,S,Teen,Low
+0.622184,0,?,3,male,C,'Senior Adult',Low
+-0.934783,1,?,1,female,S,Adult,Alone
+-0.652174,1,?,3,female,C,'Senior Adult',Alone
+0.622184,0,?,3,male,S,'Senior Adult',Low
+-0.842105,1,?,2,female,Q,Adult,Alone
+0.622184,0,?,2,male,Q,Adult,Low
+0.622184,0,?,2,male,Q,Adult,Alone
+0.622184,0,?,2,male,Q,Adult,Alone
+0.622184,0,?,2,male,Q,Adult,Low
+0.25,0,?,3,female,Q,Adult,Low
+0.622184,0,?,3,male,Q,NK,Average
+-0.652174,1,?,3,female,C,'Senior Adult',Low
+-0.304348,1,?,3,female,S,NK,Average
+0.25,0,?,3,female,Q,NK,Average
+0.622184,0,?,3,male,Q,Adult,Low
+0.622184,0,?,3,male,Q,'Senior Adult',Low
+0.622184,0,?,1,male,Q,Adult,Alone
+0.622184,0,?,3,male,S,'Senior Adult',Low
+0.622184,0,?,3,male,Q,'Senior Adult',Low
+0.622184,0,?,1,male,Q,'Senior Adult',Low
+0.428571,0,?,3,female,C,Adult,Low
+0.622184,0,?,3,male,S,'Senior Adult',Low
+0.622184,0,?,1,male,Q,Teen,Average
+0.622184,0,?,3,male,Q,Adult,Low
+0.622184,0,?,3,male,Q,Adult,Low
+-0.842105,1,?,2,female,S,NK,Average
+0.622184,0,?,3,male,S,'Senior Adult',Average
+0.622184,0,?,1,male,Q,Adult,Low
+0.622184,0,?,3,male,Q,Adult,Low
+0.622184,0,?,3,male,Q,Adult,Low
+0.622184,0,?,2,male,S,'Senior Adult',Low
+0.622184,0,?,2,male,Q,Adult,Alone
+0.622184,0,?,3,male,Q,Adult,Low
+-0.652174,1,?,3,female,C,'Senior Adult',Low
+-0.934783,1,?,1,female,Q,Teen,Average
+0.622184,0,?,1,male,Q,Adult,Average
+0.622184,0,?,3,male,Q,NK,Alone
+0.622184,0,?,1,male,Q,Teen,Average
+0.25,0,?,3,female,Q,Teen,Alone
+0.622184,0,?,3,male,Q,Adult,Low
+0.622184,0,?,3,male,S,Adult,Low
+0.622184,0,?,3,male,Q,'Senior Adult',Low
+0.428571,0,?,3,female,C,Adult,Low
+-0.934783,1,?,1,female,S,Teen,Low
+-1,1,?,3,female,C,Child,Low
+0.622184,0,?,1,male,S,Teen,Alone
+0.622184,0,?,2,male,Q,Adult,Low
+0.622184,0,?,3,male,Q,Adult,Low
+0.622184,0,?,2,male,Q,Adult,Average
+0.622184,0,?,3,male,Q,Adult,Low
+0.622184,0,?,3,male,S,Adult,Low
+0.622184,0,?,2,male,Q,Adult,Low
+0.622184,0,?,1,male,Q,Adult,Low
+-0.934783,1,?,1,female,Q,Adult,Low
+0.622184,0,?,3,male,Q,Adult,Low
+-0.842105,1,?,2,female,Q,Child,Average
+0.622184,0,?,1,male,S,Teen,Low
+0.622184,0,?,2,male,Q,Adult,Alone
+0.622184,0,?,2,male,Q,Adult,Low
+-0.842105,1,?,2,female,Q,Teen,Average
+0.622184,0,?,1,male,S,Adult,Low
+0.622184,0,?,3,male,S,'Senior Adult',Low
+-0.304348,1,?,3,female,S,Adult,Average
+0.622184,0,?,3,male,Q,Adult,Low
+0.622184,0,?,1,male,Q,Adult,Low
+0.622184,0,?,2,male,Q,Adult,Low
+0.622184,0,?,3,male,S,Adult,Average
+0.622184,0,?,2,male,Q,Adult,Low
+0.622184,0,?,3,male,S,'Senior Adult',Low
+0.622184,0,?,2,male,Q,Adult,Low
+0.622184,0,?,3,male,Q,Adult,Low
+0.622184,0,?,3,male,Q,'Senior Adult',High
+-0.934783,1,?,1,female,S,Teen,Alone
+0.622184,0,?,3,male,Q,'Senior Adult',Average
+0.25,0,?,3,female,Q,Child,Low
+0.622184,0,?,2,male,Q,Adult,Low
+-0.304348,1,?,3,female,S,Adult,Low
+0.622184,0,?,2,male,Q,Adult,Low
+-0.842105,1,?,2,female,Q,Adult,Low
+-0.934783,1,?,1,female,S,Teen,Alone
+0.622184,0,?,2,male,Q,Adult,Low
+0.622184,0,?,2,male,Q,Adult,Low
+0.622184,0,?,2,male,Q,Teen,Average
+0.25,0,?,3,female,Q,NK,Average
+0.622184,0,?,1,male,Q,Teen,Low
+-0.934783,1,?,1,female,Q,Teen,Average
+0.622184,0,?,3,male,Q,'Senior Adult',Low
+0.622184,0,?,3,male,C,'Senior Adult',Low
+0.25,0,?,3,female,Q,Adult,Alone
+0.622184,0,?,3,male,Q,Child,High
+-0.842105,1,?,2,female,S,Adult,Average
+-0.842105,1,?,2,female,Q,Adult,Low
+0.622184,0,?,3,male,Q,Adult,Low
+-0.934783,1,?,1,female,S,Adult,Alone
+0.25,0,?,3,female,Q,'Senior Adult',High
+0.622184,0,?,3,male,S,'Senior Adult',Alone
+0.25,0,?,3,female,Q,Adult,Low
+-0.934783,1,?,1,female,S,Teen,Alone
+0.622184,0,?,2,male,S,Adult,Low
+0.622184,0,?,2,male,Q,Adult,Alone
+-0.934783,1,?,1,female,S,Adult,Low
+0.622184,0,?,1,male,Q,Teen,Low
+0.622184,0,?,2,male,Q,Adult,Low
+-0.934783,1,?,1,female,Q,Teen,Average
+-0.934783,1,?,1,female,S,Teen,Low
+0.25,0,?,3,female,Q,Adult,Average
+0.622184,0,?,2,male,Q,Adult,Low
+0.622184,0,?,1,male,Q,Teen,Low
+0.622184,0,?,3,male,Q,NK,High
+0.622184,0,?,3,male,C,'Senior Adult',Low
+0.622184,0,?,3,male,C,Adult,Low
+0.25,0,?,3,female,Q,'Senior Adult',Low
+0.25,0,?,3,female,Q,Adult,Alone
+0.622184,0,?,2,male,Q,'Senior Adult',Low
+-0.842105,1,?,2,female,Q,Adult,Average
+0.622184,0,?,3,male,Q,Adult,Low
+0.622184,0,?,2,male,Q,Teen,Low
+0.622184,0,?,3,male,C,Adult,Low
+0.622184,0,?,3,male,Q,NK,Average
+0.622184,0,?,1,male,Q,Adult,Low
+-0.934783,1,?,1,female,Q,Teen,Alone
+0.622184,0,?,3,male,Q,Child,Average
+0.622184,0,?,2,male,Q,Teen,Low
+0.622184,0,?,3,male,Q,Adult,Average
+-0.934783,1,?,1,female,Q,Adult,Alone
+0.622184,0,?,3,male,C,Adult,Low
+-0.934783,1,?,1,female,S,Teen,Average
+0.622184,0,?,3,male,Q,Adult,Low
+0.622184,0,?,3,male,C,Adult,Low
+-0.934783,1,?,1,female,Q,Adult,Low
+0.622184,0,?,2,male,Q,Adult,Alone
+-0.934783,1,?,1,female,S,Adult,Alone
+0.622184,0,?,1,male,Q,Child,Low
+0.622184,0,?,1,male,S,Adult,Alone
+0.622184,0,?,2,male,S,Adult,Low
+0.622184,0,?,2,male,Q,Adult,Alone
+0.622184,0,?,1,male,S,Teen,Average
+-0.652174,1,?,3,female,C,'Senior Adult',Low
+0.25,0,?,3,female,Q,NK,Average
+-0.652174,1,?,3,female,C,'Senior Adult',Low
+-0.934783,1,?,1,female,C,Adult,Alone
+0.25,0,?,3,female,Q,Adult,Low
+0.622184,0,?,3,male,Q,'Senior Adult',Low
+-0.934783,1,?,1,female,S,Adult,Low
+0.622184,0,?,3,male,Q,Adult,Low
+0.622184,0,?,3,male,Q,'Senior Adult',Low
+0.622184,0,?,3,male,S,'Senior Adult',Average
